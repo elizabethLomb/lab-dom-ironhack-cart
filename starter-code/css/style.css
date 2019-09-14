@@ -25,17 +25,43 @@ input {
 }
 
 .btn-success {
-    color: #fff;
-    background-color: #5cb85c;
-    border-color: #4cae4c;
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
 }
 
 .btn-delete {
-    color: #fff;
-    background-color: #CF000F;
-    border-color: #CF000F;
+  color: #fff;
+  background-color: #CF000F;
+  border-color: #CF000F;
 }
 
 .quantity {
   margin: 0 5px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.center-text {
+  text-align: center;
+
+}
+
+.center-text h1 {
+  text-align: left;
+
+}
+
+.same-line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  padding: 100px;
 }
