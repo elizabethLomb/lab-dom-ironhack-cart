@@ -37,7 +37,8 @@ function createQuantityInput() {
 }
 
 function createDeleteButton() {
-
+  const button = document.createElement("button")
+  button.setAttribute()
 }
 
 function createQuantityNode() {
@@ -49,9 +50,21 @@ function createItemNode(dataType, itemData) {
 }
 
 function createNewItemRow(itemName, itemUnitPrice) {
+ const div = document.createElement("div")
+ const qtyVal = document.getElementById("new-qty").value
+ const product = document.getElementById("new-product").value
+ 
+ 
 
 }
+function createMain (){
+  const newMainDiv = document.createElement("div")
+  const newMainSpan =document.createElement("span")
+  const newMainLabel = document.createElement("label")
+  const newMainInput = document.createElement("input")
+  const newMainButton = document.createElement("button")
 
+}
 function createNewItem() {
 
 }
@@ -60,7 +73,7 @@ window.onload = function () {
   var calculatePriceButton = document.getElementById('calc-prices-button');
   var createItemButton = document.getElementById('new-item-create');
   var deleteButtons = document.getElementsByClassName('btn-delete');
-
+  createItemButton.addEventListener("click", createNewItemRow)
 
 
   calculatePriceButton.onclick = getTotalPrice;
