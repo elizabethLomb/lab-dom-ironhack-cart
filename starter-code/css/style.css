@@ -52,7 +52,7 @@ input {
 }
 
 .center-text h1 {
-  text-align: left;
+  justify-content: left;
 
 }
 
@@ -64,4 +64,8 @@ input {
 
 body {
   padding: 100px;
+}
+
+.product {
+  width: 8em;
 }
